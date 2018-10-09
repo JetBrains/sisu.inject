@@ -64,12 +64,8 @@ public final class Streams
     public static InputStream open( final URL url )
         throws IOException
     {
-        if ( ON_WINDOWS )
-        {
-            final URLConnection conn = url.openConnection();
-            conn.setUseCaches( false );
-            return conn.getInputStream();
-        }
-        return url.openStream();
+        final URLConnection conn = url.openConnection();
+        conn.setUseCaches( false );
+        return conn.getInputStream();
     }
 }
