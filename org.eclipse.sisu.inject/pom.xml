@@ -40,6 +40,7 @@
 
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <finalName>org.eclipse.sisu.inject-0.3.3-custom</finalName>
     <plugins>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
