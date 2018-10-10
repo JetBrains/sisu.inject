@@ -37,7 +37,7 @@
 
   <build>
     <sourceDirectory>src</sourceDirectory>
-    <finalName>org.eclipse.sisu.inject-0.3.0.M1-modify</finalName>
+    <finalName>org.eclipse.sisu.inject-0.3.0.M1-custom</finalName>
     <plugins>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
