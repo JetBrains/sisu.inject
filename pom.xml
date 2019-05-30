@@ -90,6 +90,21 @@
     <tycho-version>0.22.0</tycho-version>
   </properties>
 
+  <repositories>
+      <repository>
+        <id> oss.sonatype.org/jboss-snapshots </id>
+        <url> https://oss.sonatype.org/content/repositories/jboss-snapshots </url>
+      </repository>
+      <repository>
+        <id> snapshots.jboss.org </id>
+        <url> https://snapshots.jboss.org/maven2 </url>
+      </repository>
+      <repository>
+        <id> repository.jboss.org </id>
+        <url> https://repository.jboss.org/maven2 </url>
+      </repository>
+  </repositories>
+
   <build>
     <pluginManagement>
       <plugins>
