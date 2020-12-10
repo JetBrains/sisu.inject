@@ -6,9 +6,9 @@
     <property name='p2.compressed' value='false'/>
   </properties>
   <mappings size='3'>
-    <rule filter='(&amp; (id=org.sonatype.sisu.guice))' output='http://central.maven.org/maven2/org/sonatype/sisu/sisu-guice/3.1.6/sisu-guice-3.1.6-no_aop.jar'/>
-    <rule filter='(&amp; (id=org.sonatype.sisu.inject.guice-servlet))' output='http://central.maven.org/maven2/org/sonatype/sisu/inject/guice-servlet/3.1.6/guice-servlet-3.1.6.jar'/>
-    <rule filter='(&amp; (id=org.testng))' output='http://central.maven.org/maven2/org/testng/testng/6.7/testng-6.7.jar'/>
+    <rule filter='(&amp; (id=org.sonatype.sisu.guice))' output='https://central.maven.org/maven2/org/sonatype/sisu/sisu-guice/3.1.6/sisu-guice-3.1.6-no_aop.jar'/>
+    <rule filter='(&amp; (id=org.sonatype.sisu.inject.guice-servlet))' output='https://central.maven.org/maven2/org/sonatype/sisu/inject/guice-servlet/3.1.6/guice-servlet-3.1.6.jar'/>
+    <rule filter='(&amp; (id=org.testng))' output='https://central.maven.org/maven2/org/testng/testng/6.7/testng-6.7.jar'/>
   </mappings>
   <artifacts size='3'>
     <artifact classifier='osgi.bundle' id='org.sonatype.sisu.guice' version='3.1.6'>
